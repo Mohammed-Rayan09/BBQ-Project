@@ -1,0 +1,466 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+body{
+	
+	
+}
+img{
+	max-width:100%;
+	display:block;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+.container{
+	max-width:1200px;
+	margin:auto;
+}
+.flex{
+	display:flex;
+	flex-wrap:wrap;
+}
+header{
+    background: #c3191738;
+    /* margin:  13px 0; */
+    position:fixed;
+    padding: 10px;
+    width:100%;
+}
+.logo-part{
+    flex: 0 0  20%;
+    max-width: 20%;
+}
+.logo-part a{}
+.logo-part img{}
+nav{
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content:  flex-end;
+}
+nav ul li{}
+nav ul li a{
+    display:  block;
+    color: #fff;
+    padding: 15px 15px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a:hover{/* background: #c31917; *//* border-radius: 30px; */color: #c31917;}
+
+nav ul li:last-child a{
+    background: #c31917;
+    border-radius:  30px;
+    color: #fff;
+}
+/*nav section*/
+
+
+/*banner section*/
+.banner-section{
+    background: #ddd url(Image/2541321.jpg);
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    /* background-color: white; */
+    background-position:  center;
+    background-size:  cover;
+}
+
+.banner-section {}
+.banner-section .flex{
+	height: 80vh;
+	align-items: center;
+	justify-content:  center;
+}
+.banner-content{
+    text-align:  center;
+    color: #fff;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.banner-content h3{
+    color: #ff9900;
+    font-size:  25px;
+    text-transform:  capitalize;
+}
+.banner-content h1{
+    font-size: 45px;
+    font-family:  cursive;
+}
+.banner-content p{
+    margin-bottom:  22px;
+}
+.banner-content a{
+	
+color: #fff;
+	
+margin: 0 15px;
+}
+.banner-content a:hover{
+	background:#fff;
+	color:#000;
+}
+.btn{
+text-transform: uppercase;
+    padding:  10px 20px;
+    border: 1px solid;
+    font-weight: 500;
+    border-radius: 30px;	
+}
+.banner-content a:hover::before{
+	border:1px solid transparent;
+}
+.btn::before{
+	content:"";
+	position:  absolute;
+	top: 1px;
+	left: -1px;
+	width: 100%;
+	height:  100%;
+	border-radius: 30px;
+	border: 1px solid white;
+}
+/*about section*/
+.about-bbq-section{
+    padding: 50px 0;
+}
+.about-bbq-content{
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align:  center;
+    margin-top: 60px;
+}
+.about-bbq-content img{
+    margin: 0 auto;
+    max-width: 100px;
+    color: #f1f1f1;
+}
+.about-bbq-content h2{
+    color: #c31917;
+    font-size: 40px;
+}
+.about-bbq-content h4{
+    margin: 22px 0;
+    font-size:  20px;
+    font-family:  monospace;
+}
+.about-bbq-content strong{}
+.about-bbq-content p{
+    margin: 20px 0;
+    line-height:  2em;
+    font-family: sans-serif;
+}
+.about-bbq-content a{
+display:  inline-block;
+color: #c31917;}
+.about-bbq-content a:hover{
+	background: #c31917;
+	color:white;
+	
+}
+.about-bbq-content a:hover::before{
+	border:1px solid transparent;
+}
+/*about section image*/
+
+.about-bbq-image{
+    flex: 0 0 30%;
+    max-width: 30%;
+    /* height: 100%; */
+    /* width: 33px; */
+    /* box-shadow: 11px -20px 0 0 rebeccapurple; */
+    padding: 18px;
+}
+
+.about-bbq-image {}
+.about-bbq-image a{}
+.about-bbq-image img{
+    height: 80vh;
+    /* padding: 20px; */
+    box-shadow: -1px 4px 15px 4px #6e6e6e;
+}
+.about-bbq-image img:hover{
+	box-shadow:none;
+}
+/*partner section*/
+
+.partner-section{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin:  0 auto;
+}
+.partner-section ul{
+    display: flex;
+    flex-wrap:  wrap;
+}
+.partner-section ul li{
+    /* display:  flex; */
+    /* flex-wrap:  wrap; */
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+}
+.partner-section ul li img{
+    width: 100%;
+    height: 100px;
+}
+
+/*feature section*/
+.feature-section{}
+.feature-content{
+	
+/* height: 80vh; */
+	
+width: 100%;
+	
+background: #000 url(Image/grill.jpg);
+	
+text-align: center;
+	
+background-repeat:  no-repeat;
+	
+margin:  0 auto;
+	
+background-size:  cover;
+	
+/* height: 80vh; */
+	
+padding: 100px 0;
+	
+margin-top: 40px;
+}
+.feature-content h3{
+    color: #ffeb00db;
+    font-size: 40px;
+    font-family: inherit;
+}
+.feature-content h1{
+    margin-top: 15px;
+    color: whitesmoke;
+    font-family: monospace;
+    /* text-align:  justify; */
+}
+.feature-content p{
+    color: navajowhite;
+    margin-bottom: 30px;
+    font-size:  15px;
+    font-family: serif;
+}
+.feature-content a{
+    margin-top: 50px;
+}
+.btn{
+    text-transform: uppercase;
+    padding:  10px 20px;
+    border: 1px solid;
+    font-weight: 500;
+    border-radius: 30px;
+    position: relative;
+}
+
+/*menu section*/
+
+.food-menu-section{
+    padding: 50px 0;
+}
+
+/*food menu*/
+
+.food-menu{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+}
+.food-menu .flex{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.menu-content{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+}
+.menu-content h3{
+    color: black;
+    font-size:  21px;
+}
+.menu-content h5{
+    text-align:  center;
+    font-size: 30px;
+    color: #c31917;
+    font-family: sans-serif;
+}
+.menu-content p{
+    font-family:  cursive;
+    font-size:  14px;
+}
+
+.menu-imag{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.menu-imag img{
+    max-width: 100%;
+    border-radius:100px;
+    box-shadow: -2px 4px 17px 1px #242323;
+}
+
+
+/*discount secction*/
+.discount-section{
+    background: #000 url(Image/handsshake.jpg);
+    margin-top: 20px;
+    text-align: center;
+    background-repeat:  no-repeat;
+    background-attachment:  fixed;
+    background-position: center;
+    background-size:  cover;
+    background-blend-mode: luminosity;
+    height: 50vh;
+}
+.discount-content{
+    margin: 0 auto;
+    padding: 50px;
+}
+.discount-content img{
+    width: 80px;
+    margin:  0 auto;
+}
+.discount-content h6{
+    font-size:  18px;
+    font-family: sans-serif;
+    /* text-align-last: justify; */
+    text-transform: capitalize;
+}
+.discount-content h1{
+    font-size:  40px;
+    text-transform: capitalize;
+    color: #c31917;
+    padding: 20px 0;
+}
+.discount-content p{
+    color: white;
+    text-transform:  capitalize;
+    margin-bottom: 20px;
+    font-weight:  bold;
+}
+.discount-content a{
+	
+color: beige;
+}
+.discount-content a:hover{
+		background: #c31917;
+	color:white;
+}
+.discount-content a:hover::before{
+	border:1px solid transparent;
+}
+
+/*feedback section*/
+
+.feedback-section{
+    /* flex: 0 0 100%; */
+    /* max-width: 100%; */
+    margin-top: 50px;
+    text-align: center;
+}
+
+.feedback-heading {}
+.feedback-heading h1{
+    font-size: 40px;
+    margin: 20px;
+}
+.feedback-heading img{}
+
+.feedback{
+    /* display:  flex; */
+    width: 25%;
+    text-align: -webkit-center;
+    margin-bottom: 40px;
+}
+.feedback img{
+    display: block;
+    width: 150px;
+    border-radius: 140px;
+    padding: 20px;
+}
+.feedback h5{
+    font-weight:  bold;
+    font-style:  italic;
+    font-family:  cursive;
+    font-size:  16px;
+}
+.feedback span{font-weight: bold;font-style: italic;font-family: cursive;font-size: 16px;}
+
+
+/*contact section*/
+.contact-section{
+    background: #fff url(Image/back.jpg);
+    background-blend-mode: luminosity;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.contact-content{
+    text-align:  center;
+    margin: 60px 0;
+}
+.contact-content h1{
+    color: whitesmoke;
+    font-size:  50px;
+    /* font-family: cursive; */
+}
+.contact-content p{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: monospace;
+    /* text-align-last:  justify; */
+}
+.contact-content a{
+		color: whitesmoke;
+}
+.contact-content a:hover{
+	background: #c31917;
+	color: white;
+	top:-1;
+}
+..contact-content a:hover::before{
+	border:1px solid transparent;
+}
+.contact-content h2{
+    margin-top: 35px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+/*social link*/
+
+.social-link{
+    display:  flex;
+    justify-content:  center;
+    padding:  20px 0;
+}
+.social-link li{
+    padding: 14px;
+    font-size: 25px;
+}
+.social-link li a{
+}
+.social-link li a:hover{
+	color:red;
+	background:none;
+}
+
